@@ -1,0 +1,24 @@
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	transition: 2s;
+	display: block;
+	width: 300px;
+	height: 300px;
+	background-image: url(https://www.teleadhesivo.com/es/img/asfs719-png/folder/products-detalle-png/pegatinas-coches-motos-ojo-monstruos-sa.png);
+	background-size: cover;
+	background-position: center ;
+	border-radius: 50%;
+	border-top: 150px solid green;
+	border-bottom: 150px solid green;
+	box-sizing: border-box;
+}
+a:hover{
+	transition: 0.5s;
+	border-top: 0px solid green;
+	border-bottom: 0px solid green;
+}

@@ -2,3 +2,54 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+.uno,.dos,.tres,.cuatro{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(24, 23, 23);
+    border-radius: 50%;
+}
+.dos{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.uno{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.tres{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.cuatro{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.uno:hover{
+    background-color: rgb(247, 150, 150);
+}
+.dos:hover{
+    background-color: rgb(48, 51, 235);
+}
+.tres:hover{
+    background-color: rgb(250, 18, 18);
+}
+.cuatro:hover{
+    background-color: rgb(25, 240, 17);
+}
+.contactar{
+    grid-column: 2/3;
+    grid-column: 2/3;
+    text-decoration: none;
+    color:red;
+    font-size: 32px;
+    align-self: center;
+    justify-self: center;
+    
+}
